@@ -99,11 +99,14 @@ color: #1F2937;
 .maincontent2 {
     margin-top: 30px;
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .smallcontainers {
     display: flex;
+    flex: 1;
     justify-content: space-around;
     gap: 30px;
     max-width: 200px;
@@ -114,4 +117,26 @@ color: #1F2937;
     font-size: 18px;
     color: #1F2937;
 
+}
+
+.third-container {
+    padding: 100px 400px;
+    background: #e5e7eb;
+    margin-top: 60px;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    flex-shrink: 2;
+    font-style:  italic;
+}
+
+.third-container .endquote {
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+font-weight: 800;
 }
